@@ -1,1 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
 
+h1{
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    
+}
+
+h2{
+    color:#096D79;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+.sectionleft{
+    text-align: left;
+}
+.sectionright{
+    text-align: right;
+}
