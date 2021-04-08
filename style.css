@@ -24,3 +24,23 @@ h2{
 .sectionright{
     text-align: right;
 }
+
+footer{
+    background-color: black;
+    height: 100px;
+}
+
+footer p{
+    position: relative;
+    top: 35%;
+    padding: 24px;
+    
+
+}
+
+@media (max-width: 480px) {
+    header {
+     background-color: pink;
+
+    }
+
