@@ -4,10 +4,17 @@ body{
     
 }
 
+header{
+    color: rgba(red, green, blue, alpha)
+}
+
+
 h1{
-    position:absolute;
+    /* position:absolute;
     top: 20%;
-    left: 30%;
+    left: 30%; */
+
+
     
 }
 
@@ -39,8 +46,22 @@ footer p{
 }
 
 @media (max-width: 480px) {
-    header {
-     background-color: pink;
+        header{
+            background-color: pink;}
+
+    }
+    
+@media (max-width: 768px) {
+        header{
+        background-color: green;
+        }
+
+}
+
+@media (max-width: 1024px){
+        header{
+        background-color: purple;
+        }
 
     }
 
